@@ -72,6 +72,7 @@
   .tech-sql{background:rgba(0,229,160,0.12);color:var(--accent);border:1px solid rgba(0,229,160,0.2);}
   .tech-powerbi{background:rgba(124,108,240,0.12);color:#a89cf0;border:1px solid rgba(124,108,240,0.2);}
   .tech-excel{background:rgba(255,107,107,0.1);color:#ff9a9a;border:1px solid rgba(255,107,107,0.2);}
+  .tech-python{background:rgba(255,185,0,0.1);color:#ffd055;border:1px solid rgba(255,185,0,0.2);}
   .project-title{font-family:'Syne',sans-serif;font-size:1.2rem;font-weight:700;margin-bottom:0.8rem;line-height:1.3;}
   .project-desc{color:var(--muted);font-size:0.9rem;flex:1;margin-bottom:1.5rem;line-height:1.7;}
   .project-footer{display:flex;justify-content:space-between;align-items:flex-end;margin-top:auto;gap:1rem;flex-wrap:wrap;}
@@ -156,14 +157,14 @@
     <div class="hero-badge">Available for full-time &amp; hybrid roles · Immediate Joiner</div>
     <h1 class="hero-name">Raja Sekhar<br><span>Puligoti</span></h1>
     <p class="hero-title">Data Analyst · BI Developer</p>
-    <p class="hero-desc">B.Tech CSE graduate turning raw data into actionable insights across SQL, Power BI, Python, and Excel. Proven across 6 real-world projects spanning e-commerce, HR, healthcare, logistics, and media.</p>
+    <p class="hero-desc">B.Tech CSE graduate turning raw data into actionable insights across SQL, Power BI, Python, and Excel. Proven across 7 real-world projects spanning e-commerce, HR, healthcare, logistics, and media.</p>
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-num">13</div>
         <div class="stat-label">GitHub Repos</div>
       </div>
       <div class="stat">
-        <div class="stat-num">6+</div>
+        <div class="stat-num">7+</div>
         <div class="stat-label">Live Projects</div>
       </div>
       <div class="stat">
@@ -174,6 +175,10 @@
     <div class="hero-cta">
       <a href="#projects" class="btn-primary">View Projects →</a>
       <a href="https://github.com/Rajasekhar0609" target="_blank" rel="noopener" class="btn-outline">GitHub Profile</a>
+      <a href="https://drive.google.com/uc?export=download&id=1r9lwwNPjICIiphBoluVJl7z3cJVAM5sO" download="Raja_Sekhar_Puligoti_Resume.pdf" class="btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume
+      </a>
     </div>
   </div>
 </section>
@@ -230,6 +235,7 @@
     <button class="filter-btn" data-filter="sql">SQL</button>
     <button class="filter-btn" data-filter="powerbi">Power BI</button>
     <button class="filter-btn" data-filter="excel">Excel</button>
+    <button class="filter-btn" data-filter="python">Python</button>
   </div>
 
   <div class="projects-grid" id="projectsGrid">
@@ -350,6 +356,28 @@
           <div><div class="metric-val">4</div><div class="metric-label">Chart Types</div></div>
         </div>
         <a href="https://github.com/Rajasekhar0609/Excel-dashboard" target="_blank" rel="noopener" class="gh-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          View Repo
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="python sql excel powerbi">
+      <div class="project-number">07</div>
+      <div class="project-tech">
+        <span class="tech-badge tech-python">Python</span>
+        <span class="tech-badge tech-sql">SQL</span>
+        <span class="tech-badge tech-excel">Excel</span>
+        <span class="tech-badge tech-powerbi">Power BI</span>
+      </div>
+      <h3 class="project-title">Hospital Data Analysis &amp; Cleaning Pipeline</h3>
+      <p class="project-desc">End-to-end healthcare analytics on 30,000+ messy hospital records. Built a complete Python data cleaning pipeline (Pandas, NumPy) handling missing values, text standardization, invalid entries, and deduplication — then engineered features like Length of Stay, Insurance Amount, and Hospital Revenue. Analysis covers department revenue (~₹198M–204M even distribution), doctor performance, patient city distribution, and monthly admission trends with actionable business recommendations.</p>
+      <div class="project-footer">
+        <div class="project-metrics">
+          <div><div class="metric-val">30K+</div><div class="metric-label">Records</div></div>
+          <div><div class="metric-val">5</div><div class="metric-label">Feature Engineered</div></div>
+        </div>
+        <a href="https://github.com/Rajasekhar0609/hospital-data-analysis" target="_blank" rel="noopener" class="gh-link">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
           View Repo
         </a>
